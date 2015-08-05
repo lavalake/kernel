@@ -1,0 +1,7 @@
+1. modules can only call the functions provided by kernel. not std lib.
+Kernel modules are different here, too. In the hello world example, you might have noticed that we used a function, 
+printk() but didn't include a standard I/O library. 
+That's because modules are object files whose symbols get resolved upon insmod'ing. 
+The definition for the symbols comes from the kernel itself; the only external functions you can use 
+are the ones provided by the kernel. If you're curious about what symbols have been exported by your kernel,
+take a look at /proc/kallsyms.
