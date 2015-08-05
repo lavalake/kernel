@@ -1,0 +1,20 @@
+softirqs : deferred work runs in interrupt context
+tasklets : deferred work runs in interrupt context
+work queues : deferred work runs in process context
+
+softirqs : cannot run simultaneously on different CPU's
+tasklets : cannot run simultaneously on different CPU's
+work queues : can run simultaneously on different CPU's
+
+softirqs : cannot go to sleep
+tasklets : cannot go to sleep
+work queues : can go to sleep
+
+softirqs : cannot be preempted/schedule
+tasklets : cannot be preempted/schedule
+work queues : maybe be preempted/schedule
+
+softirqs : not easy to use
+tasklets : easy to use
+work queues : easy to use
+
