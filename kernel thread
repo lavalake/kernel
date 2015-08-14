@@ -18,3 +18,5 @@ softirqs : not easy to use
 tasklets : easy to use
 work queues : easy to use
 
+http://rts.lab.asu.edu/web_438/CSE438_598_slides_yhlee/438_7_Linux_ISR.pdf
+https://www.redbooks.ibm.com/redpapers/pdfs/redp4285.pdf
