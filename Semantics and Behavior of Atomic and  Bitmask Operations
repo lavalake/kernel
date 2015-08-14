@@ -1,0 +1,6 @@
+1. locking howto
+http://www.linuxgrill.com/anonymous/fire/netfilter/kernel-hacking-HOWTO-5.html
+2. kernel locking
+http://kernelbook.sourceforge.net/kernel-locking.pdf
+3. spinlock
+https://www.kernel.org/doc/Documentation/locking/spinlocks.txt
